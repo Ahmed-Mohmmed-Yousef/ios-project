@@ -33,7 +33,6 @@ class SignView: UIViewController {
             if error == nil{
                 print("done")
                 Helper.updateView(idintifierVC: "HomeVC")
-                print("qwtry")
             }else{
                 print(error?.localizedDescription as Any)
             }
